@@ -1,5 +1,3 @@
-https://github.com/EduardoSoares3/engenharia-software-cpp.git
-https://github.com/EduardoSoares3/engenharia-software-cpp.git
 P# Princípios de Design de Software
 
 ---
@@ -38,6 +36,8 @@ int main() {
     saida.mostrarMensagem(entrada.lerMensagem());
     return 0;
 }
+```
+
 
 -A classe Entrada é responsável apenas por obter dados.
 
@@ -48,7 +48,7 @@ int main() {
 
 
 
-### Princípio Aberto-Fechado (OCP - Open/Closed Principle)
+## Princípio Aberto-Fechado (OCP - Open/Closed Principle)
 
 Os módulos devem ser abertos para extensão, mas fechados para modificação. Devemos ser capazes de estender o comportamento de um módulo sem alterar seu código-fonte original. Isso promove flexibilidade e diminui o risco de bugs.
 
@@ -96,6 +96,7 @@ int main() {
     }
     return 0;
 }
+```
 
 Como o princípio foi aplicado:
 
@@ -155,7 +156,7 @@ Como o princípio foi aplicado:
 -A classe Email implementa a interface Mensagem.
 
 -Isso permite trocar Email por SMS, Push, etc., sem alterar o código de Notificador.
-
+```
 
 --- 
 
@@ -192,6 +193,7 @@ int main() {
     carro.ligarCarro();
     return 0;
 }
+```
 
 Como o princípio foi aplicado:
 
